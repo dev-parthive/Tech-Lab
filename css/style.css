@@ -127,3 +127,53 @@ body{
 }
 
 /* prodcuts section end */
+
+/* Get Updates section start  */
+#get-updates{
+    width: 90%;
+    margin: 40px auto;
+}
+#get-updates h2{
+    text-align: center;
+    font-size: 35px;
+}
+.subscribe{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 166, 0, 0.11);
+    padding: 50px 0;
+    margin: 20px 0;
+}
+/* Get Updates section end  */
+
+/* Footer start  */
+#footer{
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+.input{
+    padding: 15px 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.subscribe-btn{
+    padding: 15px 20px;
+    border: none;
+    color: white;
+    background: linear-gradient(45deg, orangered, orange);
+    border-radius: 5px;
+}
+.subscribe-btn:hover{
+    background: transparent;
+    color: orange;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+/* Footer end */
